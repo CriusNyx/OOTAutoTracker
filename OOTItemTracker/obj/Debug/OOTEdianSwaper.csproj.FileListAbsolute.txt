@@ -1,0 +1,7 @@
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\bin\Debug\OOTEdianSwaper.exe.config
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\bin\Debug\OOTEdianSwaper.exe
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\bin\Debug\OOTEdianSwaper.pdb
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\obj\Debug\OOTEdianSwaper.csprojAssemblyReference.cache
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\obj\Debug\OOTEdianSwaper.csproj.CoreCompileInputs.cache
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\obj\Debug\OOTEdianSwaper.exe
+C:\Users\RJ 1050\source\repos\OOTEdianSwaper\OOTEdianSwaper\obj\Debug\OOTEdianSwaper.pdb

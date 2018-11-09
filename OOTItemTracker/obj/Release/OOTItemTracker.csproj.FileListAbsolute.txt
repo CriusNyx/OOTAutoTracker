@@ -1,0 +1,7 @@
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\bin\Release\OOTEdianSwaper.exe.config
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\bin\Release\OOTEdianSwaper.exe
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\bin\Release\OOTEdianSwaper.pdb
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\obj\Release\OOTItemTracker.csprojAssemblyReference.cache
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\obj\Release\OOTItemTracker.csproj.CoreCompileInputs.cache
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\obj\Release\OOTEdianSwaper.exe
+C:\Users\RJ 1050\source\repos\OOTItemTracker\OOTItemTracker\obj\Release\OOTEdianSwaper.pdb
