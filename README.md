@@ -21,6 +21,8 @@ Start OOT, and either<br />
 In the auto tracker command line, enter the command autotrack<br />
 The software will begin auto tracking the oot save.<br />
 
+*If auto tracking does not appear to work correctly, make sure "SRAM AutoSave Interval" is set to a low number in retroarch, such as 2 seconds<br />This may degrade preformance on slow machines*
+
 *If retroarch is installed in a non standard directory, use the command setdir [directory] to set the auto tracker to the new directory*
 
 # Other software commands
