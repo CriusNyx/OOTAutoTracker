@@ -14,12 +14,12 @@ Currently, it only has a command line interface.
 
 # Usage
 
-Open the OOT auto tracker, and then open retroarch.
-Start OOT, and either
-	-Create a new file
-	-Load an existing file, and save once.
-In the auto tracker command line, enter the command autotrack
-The software will begin auto tracking the oot save.
+Open the OOT auto tracker, and then open retroarch.<br />
+Start OOT, and either<br />
+	-Create a new file<br />
+	-Load an existing file, and save once.<br />
+In the auto tracker command line, enter the command autotrack<br />
+The software will begin auto tracking the oot save.<br />
 
 *If retroarch is installed in a non standard directory, use the command setdir [directory] to set the auto tracker to the new directory*
 
