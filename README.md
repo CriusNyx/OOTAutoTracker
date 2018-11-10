@@ -16,8 +16,8 @@ Currently, it only has a command line interface.
 
 Open the OOT auto tracker, and then open retroarch.<br />
 Start OOT, and either<br />
-	-Create a new file<br />
-	-Load an existing file, and save once.<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;-Create a new file<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;-Load an existing file, and save once.<br />
 In the auto tracker command line, enter the command autotrack<br />
 The software will begin auto tracking the oot save.<br />
 
