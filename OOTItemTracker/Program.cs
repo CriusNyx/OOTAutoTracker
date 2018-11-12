@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,7 +51,9 @@ namespace OOTItemTracker
         {
             Console.WriteLine("OOT Auto Tracker:");
 
-            savePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/RetroArch/Saves";
+            savePath = ConfigurationSettings.AppSettings.Get("Directory");
+            savePath = Environment.ExpandEnvironmentVariables(savePath);
+
             fileMonitor = new FileMonitor(savePath);
             Console.WriteLine("File Monitor Initialized");
             
@@ -131,6 +134,10 @@ namespace OOTItemTracker
                 if(command == "help")
                 {
                     PrintCommands(command);
+                }
+                if(command.StartsWith("setdir "))
+                {
+                    SetDir(command);
                 }
             }
         }
@@ -353,7 +360,20 @@ namespace OOTItemTracker
             Console.WriteLine("\tautotrack: begin auto tracking, and auto updating");
             Console.WriteLine("\tcls: clear the console screen");
             Console.WriteLine("\tevents: print a list of events");
+            Console.WriteLine("\tsetdir [DirectoryPath]: sets the location of the retro arch saves path for non standard retroarch installations");
+            Console.WriteLine("\tresetdir: resets the directory to the standard retroarch installation");
             Console.WriteLine("\thelp: print the help string, with a list of commands");
+        }
+
+        public static void SetDir(string command)
+        {
+            string dir = command.Remove(0, "setdir ".Length);
+            ConfigurationSettings.AppSettings.Set("Directory", dir);
+        }
+
+        public static void ResetDir(string command)
+        {
+            ConfigurationSettings.AppSettings.Set("Directory", "%AppData%/RetroArch/saves");
         }
         #endregion
 

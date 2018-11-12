@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F1E5BC10-9045-4BBF-A749-9D40E50FAE48}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOTEdianSwaper</RootNamespace>
-    <AssemblyName>OOTEdianSwaper</AssemblyName>
+    <RootNamespace>OOTItemTracker</RootNamespace>
+    <AssemblyName>OOTItemTracker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -57,4 +57,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>IF "$(ConfigurationName)"=="Release" CALL :release
+EXIT/B 0 
+
+:release
+rmdir "$(SolutionDir)Release" /s /q
+mkdir "$(SolutionDir)Release"
+xcopy /E "$(TargetDir)." "$(SolutionDir)Release\."
+EXIT /B 0
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>
